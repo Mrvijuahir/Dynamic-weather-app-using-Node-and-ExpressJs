@@ -3,4 +3,4 @@
 
 #1. How it Works ?
 =
-After downloading all the code just type (npm install) in your trminal to install required node modules.
+After downloading all the code just type (npm install) in your terminal to install required node modules.
