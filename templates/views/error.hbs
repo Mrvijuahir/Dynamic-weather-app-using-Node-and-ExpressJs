@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   {{>headlinks}}
+
+</head>
+
+<body>
+    {{>navbar}}
+
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure>
+                            <img src="img/err.png" alt="Vijay" class="img-fluid" title="Coder's hack">
+                        </figure>
+                    
+                        <p>Welcome to Coder's hack</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/">
+                        <button> Go Back</button>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    {{>footer}}
+
+</body>
+
+</html>
